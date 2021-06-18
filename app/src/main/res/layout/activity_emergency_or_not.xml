@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".EmergencyOrNot"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/primaryTextColor"
+        app:cardCornerRadius="40dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/textView21"
+                style="@style/viewParent.headerText.NoMode"
+                android:layout_width="346dp"
+                android:layout_height="115dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="52dp"
+                android:gravity="center"
+                android:text="Is it an emergency situation?&#10;For example:-Road Accident,Cardiac Arrest,Snake BIte etc;"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:id="@+id/cirOkayBtnAmbulance"
+                style="@style/loginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="69dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:layout_marginBottom="40dp"
+                android:backgroundTint="#ED0909"
+                android:onClick="MoveToEmergencyPortal"
+                android:text="Yes! It's an emergency!"
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                app:initialCornerAngle="27dp"
+                app:spinning_bar_padding="10dp"
+                app:spinning_bar_width="4dp" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/primaryTextColor"
+        app:cardCornerRadius="40dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/need_a_normal_doctor_patient_appointment_booking"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:id="@+id/cirappointment"
+                style="@style/loginButton"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="40dp"
+                android:backgroundTint="#F6CF23"
+                android:onClick="GotoNormalPortal"
+                android:text="Book an instant appointment &#10;to a doctor"
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                app:initialCornerAngle="27dp"
+                app:spinning_bar_padding="10dp"
+                app:spinning_bar_width="4dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

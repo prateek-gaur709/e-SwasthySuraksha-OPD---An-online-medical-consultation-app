@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmergencyPortal">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="283dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/emergency_portal"
+        android:textAlignment="center"
+        android:textColor="#E64444"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="15dp"
+        app:cardCornerRadius="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="264dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:onClick="RoadAccident"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ambulance" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="279dp"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_margin="5dp"
+                    android:onClick="HeartAttack"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/heartattack" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="208dp"
+                    android:layout_row="2"
+                    android:layout_column="0"
+                    android:layout_marginBottom="15dp"
+                    android:onClick="Burns"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/burns" />
+
+
+            </GridLayout>
+
+        </ScrollView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

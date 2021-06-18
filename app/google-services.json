@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "388177435486",
+    "project_id": "e-swashthyasuraksha-opd-app",
+    "storage_bucket": "e-swashthyasuraksha-opd-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388177435486:android:e9c7730297f1026f950dcf",
+        "android_client_info": {
+          "package_name": "com.example.eswasthyasuraksha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388177435486-0m0r74kc349nfm362k2lovubo3ld6eie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzkkDsvlzAQsir9zweZxPR8Cu97tw2QEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388177435486-0m0r74kc349nfm362k2lovubo3ld6eie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

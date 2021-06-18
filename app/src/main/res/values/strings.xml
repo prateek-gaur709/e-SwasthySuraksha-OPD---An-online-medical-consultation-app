@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">eSwasthyaSuraksha</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="enter_phone_no">Enter phone no.</string>
+    <string name="patient_registration_generate_token_verify_mobile" tools:ignore="DuplicateDefinition">Patient Registration /Generate Token/Verify Mobile</string>
+    <string name="e_swasthyasuraksha_opd">e-SwasthyaSuraksha OPD</string>
+    <string name="doctor_img">doctor_img</string>
+    <string name="token">Token</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="mobile_no_or_patient_id">Mobile No. or Patient ID</string>
+    <string name="nurse_logo">nurse_logo</string>
+    <string name="patient_registration_generate_token">Patient Registration/Generate token</string>
+    <string name="patient_login">Patient Login</string>
+    <string name="patient_profile">Patient Profile</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="otp">OTP</string>
+    <string name="phone_no">Phone no.</string>
+    <string name="your_patient_id_and_token_has_been_sent_to_your_registered_mobilre_number_go_to_login_window">Your Patient Id and Token has been sent to your registered mobilre number!Go to Login Window!</string>
+    <string name="okay">Okay</string>
+    <string name="female">Female</string>
+    <string name="emergency_portal"><u>Emergency Portal</u></string>
+    <string name="road_accident">Road Accident</string>
+    <string name="call_police">Call Police</string>
+    <string name="call_ambulance">Call Ambulance</string>
+    <string name="having_a_cardiac_arrest"><u>Having A Cardiac Arrest?</u></string>
+    <string name="need_a_normal_doctor_patient_appointment_booking">Need a Normal Doctor Patient Appointment Booking</string>
+    <string name="congratulations"><u>Congratulations!!</u></string>
+    <string name="today_s_appointmnts_for_you"><u>Today\'s appointmnts for you!</u></string>
+</resources>

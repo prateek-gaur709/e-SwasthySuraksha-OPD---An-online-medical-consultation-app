@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eswasthyasuraksha">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ESwasthyaSuraksha">
+        <activity android:name=".DoctorDashboard"></activity>
+        <activity android:name=".DoctorLogin" />
+        <activity android:name=".DoctorRegisterForm" />
+        <activity android:name=".DoctorRegistration" />
+        <activity android:name=".VideoConferencing" />
+        <activity android:name=".CardiacArrest" />
+        <activity android:name=".Burns" />
+        <activity android:name=".Accident" />
+        <activity android:name=".EmergencyPortal" />
+        <activity android:name=".EmergencyOrNot" />
+        <activity android:name=".DoctorPortal" />
+        <activity android:name=".WhatAreU" />
+        <activity android:name=".patientProfileAuthCheck" />
+        <activity android:name=".OTPVerification" />
+        <activity android:name=".AuthenticationActivity" />
+        <activity android:name=".PatientDetails" />
+        <activity android:name=".PatientProfileActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".PatientRegistrationActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
